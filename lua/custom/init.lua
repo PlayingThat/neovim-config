@@ -5,3 +5,7 @@
 --   pattern = "*",
 --   command = "tabdo wincmd =",
 -- })
+
+-- Enable relative line numbers
+vim.wo.relativenumber = true
+
