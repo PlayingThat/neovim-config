@@ -7,3 +7,6 @@ require "nvchad.options"
 
 vim.wo.relativenumber = true
 
+-- Don't cut words when wrapping them
+vim.opt.linebreak = true
+
